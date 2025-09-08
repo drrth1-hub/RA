@@ -1,32 +1,20 @@
-name: Unpack ZIP
+name: Auto-Unpack ZIP
 
 on:
   push:
-    paths:
-      - "RAg.zip"
-
-permissions:
-  contents: write
+    branches:
+      - main
 
 jobs:
-  unzip:
+  unpack:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-
-      - name: Install unzip
-        run: sudo apt-get update && sudo apt-get install -y unzip
-
-      - name: Unzip file
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Unpack RAg.zip if exists
         run: |
-          unzip -o RAg.zip -d .
-          rm RAg.zip || true
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add .
-          git commit -m "Auto-unpacked RAg.zip" || echo "No changes to commit"
-          git push
+          if [ -f RAg.zip ]; then
+            unzip -o RAg.zip -d .
+          else
+            echo "RAg.zip not found, skipping."
+          fi
