@@ -66,6 +66,6 @@ fun ConnectionStatusLight(connected: Boolean) {
     AssistChip(
         onClick = {},
         label = { Text(if (connected) "Verbunden" else "Getrennt") },
-        leadingIcon = { Icon(if (connected) Icons.Default.CheckCircle else Icons.Default.Cancel, null) }
+        leadingIcon = { Icon(if (connected) Icons.Default.CheckCircle else Icons.Default.R.string.cancel, null) }
     )
 }

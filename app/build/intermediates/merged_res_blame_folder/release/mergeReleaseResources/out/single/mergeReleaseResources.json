@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.oldtimerrallytimer.app-release-69:/layout_activity_main.xml.flat",
+        "source": "com.example.oldtimerrallytimer.app-main-70:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.example.oldtimerrallytimer.app-release-69:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.example.oldtimerrallytimer.app-main-70:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.example.oldtimerrallytimer.app-release-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.example.oldtimerrallytimer.app-main-70:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.14.2/com.example.oldtimerrallytimer.app-release-69:/xml_file_paths.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.14.2/com.example.oldtimerrallytimer.app-main-70:/xml/file_paths.xml"
+    }
+]

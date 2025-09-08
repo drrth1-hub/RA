@@ -1,0 +1,10 @@
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/vm/AppViewModel.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/ui/Settings.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/service/SignalService.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/model/Models.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/ui/Training.kt
+/workspaces/RA/app/src/main/java/com/example/ra/MainActivity.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/ui/Presets.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/MainActivity.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/ui/Competition.kt
+/workspaces/RA/app/src/main/java/com/example/oldtimerrallytimer/ui/Nav.kt
